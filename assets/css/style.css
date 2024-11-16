@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
     --rubik: "Rubik", sans-serif;
     --abril: "Abril Fatface", serif;
     --abel: "Abel", sans-serif;
+    --abeezee: "ABeeZee", sans-serif;
 }
 /* ========== Common CSS Part End ==========*/
 
@@ -208,23 +209,281 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
 }
 /* ========== Experience Part End ==========*/
 
-/* ========== Common CSS Part Start ==========*/
-/* ========== Common CSS Part End ==========*/
+/* ========== Business Partners Part Start ==========*/
+#fuhadShiblu_bpMain{
+    width: 100%;
+    background: rgba(252, 224, 239, 0.2);
+}
+.fuhadShiblu_bpTxt{
+    margin: 78px 76px;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: var(--poppins);
+}
+.fuhadShiblu_bpSlider{
+    text-align: center;
+}
+/* ========== Business Partners Part End ==========*/
 
-/* ========== Common CSS Part Start ==========*/
-/* ========== Common CSS Part End ==========*/
+/* ========== Plant Part Start ==========*/
+#fuhadShiblu_plantMain{
+    width: 100%;
+    height: 610px;
+    background: url(/assets/images/Picture.png);
+    background-repeat: no-repeat;
+}
+.fuhadShiblu_plantTxtArea h2{
+    width: 460px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #343434;
+    font-family: var(--abeezee);
+    margin: 0 auto;
+    padding-top: 140px;
+}
+.fuhadShiblu_plantTxtArea p{
+    width: 460px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #676767;
+    font-family: var(--abeezee);
+    margin: 10px auto 44px;
+}
+.fuhadShiblu_plantTxtArea a{
+    width: 460px;
+    font-size: 19px;
+    font-weight: 900;
+    color: #ED017F;
+    font-family: var(--poppins);
+    margin: 0 auto;
+    display: block;
+}
+.fuhadShiblu_plantTxtArea span{
+    margin-left: 7px;
+}
+/* ========== Plant Part End ==========*/
 
-/* ========== Common CSS Part Start ==========*/
-/* ========== Common CSS Part End ==========*/
+/* ========== Services Part Start ==========*/
+#fuhadShiblu_servicesMain{
+    padding: 106px 0 130px 0;
+    background: #f3f9fc;
+}
+.fuhadShiblu_serTxtArea h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: var(--poppins);
+    font-weight: 900;
+    color: #343434;
+    margin-bottom: 20px;
+}
+.fuhadShiblu_serTxtArea p{
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--poppins);
+    font-weight: 900;
+    color: #343434;
+    margin-bottom: 64px;
+}
+.fuhadShiblu_serImg{
+    width: 254px;
+    height: 457px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.fuhadShiblu_serImg img{
+    transition: all linear .1s;
+}
+.fuhadShiblu_serImg img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_serLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+.fuhadShiblu_serLink a{
+    width: 195px;
+    font-size: 21px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #363940;
+}
+.fuhadShiblu_serLink span{
+    color: #ED017F;
+}
+/* ========== Services Part End ==========*/
 
-/* ========== Common CSS Part Start ==========*/
-/* ========== Common CSS Part End ==========*/
+/* ========== Best Result Part Start ==========*/
+#fuhadShiblu_bestResultMain{
+    padding: 106px 0 108px 0;
+}
+.fuhadShiblu_bestResultTxtArea h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #343434;
+}
+.fuhadShiblu_bestResultTxtArea p{
+    width: 548px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #999;
+    margin: 20px auto 84px;
+    text-align: center;
+}
+.fuhadShiblu_bestResultTxtTest h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #343434;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bestResultTxtTest h2:hover{
+    color: #ED017F;
+    transform: scale(1.1);
+}
+.fuhadShiblu_bestResultTxtTest p{
+    width: 172px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #676767;
+    margin: 8px 0 67px 0;
+}
+/* ========== Best Result Part End ==========*/
 
-/* ========== Common CSS Part Start ==========*/
-/* ========== Common CSS Part End ==========*/
+/* ========== Newsletter Part Start ==========*/
+#fuhadShiblu_newsletterMain{
+    background: #fef9fc;
+    padding: 100px 0 116px 0;
+}
+.fuhadShiblu_newsletterTxtArea h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #343434;
+}
+.fuhadShiblu_newsletterTxtArea p{
+    width: 410px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #999;
+    margin: 20px auto 34px;
+}
+.fuhadShiblu_newsletterTxtArea form input{
+    padding: 12px 236px 12px 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    transition: all linear .1s;
+}
+.fuhadShiblu_newsletterTxtArea form{
+    text-align: center;
+}
+.fuhadShiblu_newsletterTxtArea form input:focus{
+    border: 2px solid #000;
+}
+.fuhadShiblu_newsletterTxtArea form button{
+    padding: 16px 24px 16px 24px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #ED017F;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    letter-spacing: 2px;
+    color: #fff;
+    transition: all linear .1s;
+}
+.fuhadShiblu_newsletterTxtArea form button:active{
+    transform: scale(1.1);
+}
+/* ========== Newsletter Part End ==========*/
 
-/* ========== Common CSS Part Start ==========*/
-/* ========== Common CSS Part End ==========*/
+/* ========== Footer Part Start ==========*/
+footer{
+    padding: 60px 0 79px 0;
+    position: relative;
+}
+.fuhadShiblu_footerTxtArea h3{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #010101;
+    margin: 20px 0 16px 0;
+}
+.fuhadShiblu_footerTxtArea p{
+    width: 180px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #676767;
+    margin: 20px 0 16px 0;
+}
+.fuhadShiblu_footerSclIcns ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.fuhadShiblu_footerSclIcns ul li a{
+    transition: all linear .1s;
+}
+.fuhadShiblu_footerSclIcns ul li a:hover{
+    transform: scale(1.5);
+}
+.fuhadShiblu_footerTxtArea h4{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #363940;
+    margin-bottom: 20px;
+}
+.fuhadShiblu_footerTxtLinks ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fuhadShiblu_footerTxtLinks ul li a{
+    font-size: 14px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #676767;
+}
+.fuhadShiblu_footerTxtLinks ul li a:hover{
+    text-decoration: underline;
+}
+.fuhadShiblu_credit{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--poppins);
+}
+.fuhadShiblu_heartCredit{
+    color: #ff0000;
+}
+.fuhadShiblu_credit a{
+    font-weight: 900;
+    color: #000;
+}
+.fuhadShiblu_credit a:hover{
+    text-decoration: underline;
+}
+/* ========== Footer Part End ==========*/
 
 /* ========== Common CSS Part Start ==========*/
 /* ========== Common CSS Part End ==========*/
